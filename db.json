@@ -1,6 +1,5 @@
 {
-  "logs": [
-    {
+  "logs": [{
       "id": 1,
       "message": "Changed hard drive on workstation 005",
       "attention": false,
@@ -22,11 +21,14 @@
       "tech": "Sara Wilson"
     },
     {
-      "id": 4
+      "id": 4,
+      "message": "Hacked workstation 111",
+      "attention": true,
+      "date": "07-12-2020",
+      "tech": "Jo-Ivan Melgarejo"
     }
   ],
-  "techs": [
-    {
+  "techs": [{
       "id": 1,
       "firstName": "John",
       "lastName": "Doe"
@@ -42,9 +44,9 @@
       "lastName": "Wilson"
     },
     {
+      "id": 4,
       "firstName": "Jo-Ivan",
-      "lastName": "Melgarejo",
-      "id": 4
+      "lastName": "Melgarejo"
     }
   ]
 }
