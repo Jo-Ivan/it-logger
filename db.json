@@ -1,17 +1,11 @@
 {
-  "logs": [{
-      "id": 1,
-      "message": "Changed hard drive on workstation 005",
-      "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam Smith"
-    },
+  "logs": [
     {
       "id": 2,
-      "message": "Workstation 007 not posting",
+      "message": "Workstation 007 not posting123",
       "attention": true,
-      "date": "03-02-2019",
-      "tech": "John Doe"
+      "tech": "John Doe",
+      "date": "2020-04-23T23:05:09.024Z"
     },
     {
       "id": 3,
@@ -22,13 +16,21 @@
     },
     {
       "id": 4,
-      "message": "Hacked workstation 111",
+      "message": "Fixed workstation 111",
+      "attention": false,
+      "tech": "Jo-Ivan Melgarejo",
+      "date": "2020-04-23T23:05:19.691Z"
+    },
+    {
+      "message": "YEET",
       "attention": true,
-      "date": "07-12-2020",
-      "tech": "Jo-Ivan Melgarejo"
+      "tech": "John Doe",
+      "date": "2020-04-23T21:55:31.552Z",
+      "id": 5
     }
   ],
-  "techs": [{
+  "techs": [
+    {
       "id": 1,
       "firstName": "John",
       "lastName": "Doe"
